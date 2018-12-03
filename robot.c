@@ -8,7 +8,7 @@
  * @since August 2013
  *
  */
-//@author David Vargas Puga
+//@author David Vargas Puga, Kavya Mandla
 #include "robot.h"
 
 /**
