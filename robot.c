@@ -8,7 +8,7 @@
  * @since August 2013
  *
  */
-
+//@author David Vargas Puga
 #include "robot.h"
 
 /**
@@ -36,7 +36,7 @@ void robotPrintAscii(void)
   printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
 	 "%s    i_i    \n"
-	 "%s   [@_@]   \n"
+	 "%s   [0_0]   \n"
 	 "%s  /|___|\\ \n"
 	 "%s   d   b   \n",blank, blank, blank, blank);
 
@@ -55,7 +55,11 @@ void dalekPrintAscii(void)
   printf("\n\n"
 	 "I am Dalek, from Dr. Who\n"
 	 "%s      <----->      \n" 
+<<<<<<< HEAD
          "%s     <  (Q)  >     \n"        
+=======
+         "%s     <  (A)  >     \n"        
+>>>>>>> f43f85e1b2a2dba4b0507b02a47965d280735477
          "%s     |       |     \n"
          "%s    < ------- >    \n"
          "%s    o         o    \n"
