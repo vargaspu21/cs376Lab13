@@ -8,7 +8,7 @@
  * @since August 2013
  *
  */
-//@author David Vargas Puga
+//@author David Vargas Puga, Courtney Cox
 #include "robot.h"
 
 /**
