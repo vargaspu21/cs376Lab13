@@ -8,7 +8,11 @@
  * @since August 2013
  *
  */
+<<<<<<< HEAD
 //@author David Vargas Puga, Kavya Mandla
+=======
+//@author David Vargas Puga, Courtney Cox
+>>>>>>> ef0005360e3055d7f732b3454d35236b3b187187
 #include "robot.h"
 
 /**
