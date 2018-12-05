@@ -8,11 +8,10 @@
  * @since August 2013
  *
  */
-<<<<<<< HEAD
+
 //@author David Vargas Puga, Kavya Mandla
-=======
+
 //@author David Vargas Puga, Courtney Cox
->>>>>>> ef0005360e3055d7f732b3454d35236b3b187187
 #include "robot.h"
 
 /**
@@ -59,11 +58,11 @@ void dalekPrintAscii(void)
   printf("\n\n"
 	 "I am Dalek, from Dr. Who\n"
 	 "%s      <----->      \n" 
-<<<<<<< HEAD
+
          "%s     <  (Q)  >     \n"        
-=======
+
          "%s     <  (A)  >     \n"        
->>>>>>> f43f85e1b2a2dba4b0507b02a47965d280735477
+
          "%s     |       |     \n"
          "%s    < ------- >    \n"
          "%s    o         o    \n"
