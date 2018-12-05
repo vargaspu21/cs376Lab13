@@ -10,7 +10,6 @@
  */
 //@author David Vargas Puga
 #include "robot.h"
-
 /**
  * robotPrintMessage
  *
