@@ -4,11 +4,15 @@
  * A file that contains the supporting functions for main() in the
  * ~/robots example source for Software Engineering.
  *
- * @author Tanya L. Crenshaw, Nathan Schmedake
+ * @author Tanya L. Crenshaw, Nathan Schmedake, Kavya Mandla
  * @since August 2013
  *
  */
-//@author David Vargas Puga
+<<<<<<< HEAD
+//@author David Vargas Puga, Kavya Mandla
+=======
+//@author David Vargas Puga, Courtney Cox
+>>>>>>> ef0005360e3055d7f732b3454d35236b3b187187
 #include "robot.h"
 /**
  * robotPrintMessage
@@ -55,11 +59,15 @@ void dalekPrintAscii(void)
   printf("\n\n"
 	 "I am Dalek, from Dr. Who\n"
 	 "%s      <----->      \n" 
+<<<<<<< HEAD
+         "%s     <  (Q)  >     \n"        
+=======
          "%s     <  (A)  >     \n"        
+>>>>>>> f43f85e1b2a2dba4b0507b02a47965d280735477
          "%s     |       |     \n"
          "%s    < ------- >    \n"
          "%s    o         o    \n"
-         "%s    o  0  ()  o    \n"
+         "%s    o  Q  ()  o    \n"
 	 "%s   o           o   \n"
    	 "%s o o o o o o o o o \n"
    	 "%s o o o o o o o o o \n"
