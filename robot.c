@@ -13,7 +13,6 @@
 
 //@author David Vargas Puga, Courtney Cox
 #include "robot.h"
-
 /**
  * robotPrintMessage
  *
@@ -36,16 +35,17 @@ void robotPrintAscii(void)
   int i;
   char* blank = "                              ";
   blank = blank +30;
-  printf("\n\n"
+  for(int i = 0; i < 4; i++){
+printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
 	 "%s    i_i    \n"
 	 "%s   [0_0]   \n"
 	 "%s  /|___|\\ \n"
 	 "%s   d   b   \n",blank, blank, blank, blank);
 
-  blank = blank - 10;
+  blank = blank - 3;
 }
-
+}
 /**
  * dalekPrintAscii
  *
